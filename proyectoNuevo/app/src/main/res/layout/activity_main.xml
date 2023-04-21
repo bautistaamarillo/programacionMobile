@@ -36,8 +36,8 @@
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="153dp"
-        android:layout_height="165dp"
+        android:layout_width="151dp"
+        android:layout_height="152dp"
         android:layout_marginTop="156dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#14370F"
@@ -49,8 +49,8 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="254dp"
-        android:layout_height="65dp"
+        android:layout_width="238dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="152dp"
         android:backgroundTint="#981E1E"

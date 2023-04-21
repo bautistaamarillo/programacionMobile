@@ -17,18 +17,20 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="249dp"
         android:layout_height="161dp"
+        android:backgroundTint="#D59C9C"
         android:text="Hola!"
         android:textColor="#213597"
         android:textSize="24sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="-2dp" />
 
@@ -38,7 +40,7 @@
         android:layout_height="165dp"
         android:layout_marginTop="156dp"
         android:layout_marginEnd="8dp"
-        android:background="#253DDC"
+        android:backgroundTint="#14370F"
         android:text="esto"
         android:textColorLink="#EC2121"
         android:textSize="24sp"
@@ -49,8 +51,8 @@
         android:id="@+id/button11"
         android:layout_width="254dp"
         android:layout_height="65dp"
-        android:layout_marginTop="160dp"
-        android:background="#BA0F0F"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
         android:backgroundTint="#981E1E"
         android:shadowColor="#511818"
         android:text="es"
@@ -66,11 +68,12 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="302dp"
-        android:layout_height="149dp"
+        android:layout_width="350dp"
+        android:layout_height="148dp"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="196dp"
+        android:backgroundTint="#9C27B0"
         android:text="una"
         android:textSize="21sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,18 +83,19 @@
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="338dp"
-        android:layout_height="191dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="410dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="152dp"
         android:layout_marginBottom="4dp"
+        android:backgroundTint="#F57F17"
         android:text="prueba"
         android:textColor="#2196F3"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button12"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -49,10 +49,10 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="238dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="152dp"
+        android:layout_width="245dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="108dp"
         android:backgroundTint="#981E1E"
         android:shadowColor="#511818"
         android:text="es"
